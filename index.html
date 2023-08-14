@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Development tak</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js"></script>
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!--Bootstrap JS link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Section 1-->
+    <!----------------Banner section Start------------------>
+    <div class="container-fluid m-0 p-0">
+        <div class="row m-0 p-0">
+            <div class="col-lg-1 col-xl-1 col-xxl-1 col-sm-12 col-md-12">
+                <img src="./assets/icons8-hamberger-91.png" onclick="showMenu()" alt="" class="hamberger" />
+                <div id="myMenu" class="list">
+                    <li><a href="" class="text-decoration-none text-dark">Sign In</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Sign Up</a></li>
+                </div>
+            </div>
+            <!--Slider section start-->
+            <div class="col-lg-10 col-xl-10 col-xxl-10 col-sm-12 col-md-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="banner-img-1">
+                                <div class="banner-content">
+                                    <h1>Lorem Ipsum</h1>
+                                    <p>
+                                        Voluptatum deleniti atque corrupti quos dolores et quas
+                                        molestias excepturi sint occaecati cupiditate non
+                                        provident .
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner-img-2">
+                                <div class="banner-content">
+                                    <h1>Dolor Sitema</h1>
+                                    <p>
+                                        Minim veniam, quis nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat tarad limino ata
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner-img-3">
+                                <div class="banner-content">
+                                    <h1>Magni Dolore</h1>
+                                    <p>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus
+                                        qui blanditiis praesentium voluptatum deleniti atque
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!--Slider section end-->
+            <div class="col-lg-1 col-xl-1 col-xxl-1 col-sm-12 col-md-12">
+                <img src="./assets/icons8-hamberger-91.png" onclick="showMap()" alt="" class="hamberger" />
+                <div id="myMap" class="list">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15128.633529640621!2d73.91748594999999!3d18.56689695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c146e61484b5%3A0xb6482cf7a8b4b3b0!2sViman%20Nagar%2C%20Pune%2C%20Maharashtra%20411014!5e0!3m2!1sen!2sin!4v1691997212630!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------- Banner section Ends-=------------------->
+
+    <!--Section 2-->
+    <!-----------------Youtube section starts------------------->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <iframe width="100%" height="340" src="https://www.youtube.com/embed/MDLn5-zSQQI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <iframe width="100%" height="340" src="https://www.youtube.com/embed/L1yy8QI0Aew"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!------------------------Youtube section ends------------------------->
+
+    <!--Section 3-->
+    <!----------------------Model section starts--------------------------->
+    <div class="container mt-5">
+        <div class="row">
+            <!--Model 1-->
+            <div class="col-lg-6 col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">
+                                    Modal 1
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">"Hello!" "How are you ?"</div>
+                            <div class="modal-footer d-flex justify-content-end">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="model-1">
+                    <a class="btn btn-secondary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open
+                        first modal</a>
+                </div>
+            </div>
+            <!--Model 2-->
+            <div class="col-lg-6 col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">
+                                    Modal 1
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">"Have a good day"</div>
+                            <div class="modal-footer d-flex justify-content-end">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal">
+                                    Open second modal
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="model-2">
+                    <a class="btn btn-secondary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open
+                        second modal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Model section end-------------------->
+
+    <!----------------Wizard section start------------------->
+    <div class="container mt-5">
+        <ul class="nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-form-tab" data-bs-toggle="pill" data-bs-target="#pills-form"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    Form tab
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-text-tab" data-bs-toggle="pill" data-bs-target="#pills-text"
+                    type="button" role="tab" aria-controls="pills-text" aria-selected="false">
+                    Text tab
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-image-tab" data-bs-toggle="pill" data-bs-target="#pills-image"
+                    type="button" role="tab" aria-controls="pills-image" aria-selected="false">
+                    Image tab
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-video-tab" data-bs-toggle="pill" data-bs-target="#pills-video"
+                    type="button" role="tab" aria-controls="pills-video" aria-selected="false">
+                    Video tab
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
+            <!---Form tab--->
+            <div class="tab-pane fade show active" id="pills-form" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row m-0 p-0 mt-4">
+                    <div class="col-lg-6 col-xl-6">
+                        <div class="form-floating mb-3 form" style="width: 550px;">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="name"> First Name </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6">
+                        <div class="form-floating mb-3 form" style="width: 550px;">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="name"> Last Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0 p-0 mt-4">
+                    <div class="col-lg-6 col-xl-6">
+                        <div class="form-floating mb-2 form" style="width: 550px;">
+                            <input class="form-control" id="name" type="email" placeholder="Enter your name..."
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="name"> Email Address</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6">
+                        <div class="form-floating mb-3 form" style="width: 550px;">
+                            <input class="form-control" id="number" type="number" placeholder="Enter your name..."
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="name">Business Phone</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0 p-0 mt-4">
+                    <div class="col-lg-6 col-xl-6">
+                        <div class="form-floating mb-2 form" style="width: 550px;">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="name"> Company Name</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6">
+                        <div class="form-floating mb-3 form" style="width: 550px;">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="name">Job Title</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit-btn d-flex justify-content-center mt-3">
+                    <button type="button" class="btn btn-secondary px-4 py-1 fs-5 fw-2">Submit</button>
+                </div>
+            </div>
+            <!---Text tab--->
+            <div class="tab-pane fade mt-4" id="pills-text" role="tabpanel" aria-labelledby="pills-text-tab">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam iste
+                enim quibusdam corporis deleniti sapiente, quae ex perferendis ipsa
+                eaque quas omnis, id impedit et. Nulla nostrum iure illo quis. Lorem
+                Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently
+                with desktop publishing software like Aldus PageMaker including
+                versions of Lorem Ipsum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam iste
+                enim quibusdam corporis deleniti sapiente, quae ex perferendis ipsa
+                eaque quas omnis, id impedit et. Nulla nostrum iure illo quis. Lorem
+                Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently
+                with desktop publishing software like Aldus PageMaker including
+                versions of Lorem Ipsum. <br>
+                Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently
+                with desktop publishing software like Aldus PageMaker including
+                versions of Lorem Ipsum.
+                Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining essentially
+                unchanged.
+            </div>
+            <!---Image tab--->
+            <div class="tab-pane fade mt-4" id="pills-image" role="tabpanel" aria-labelledby="pills-image-tab">
+                <img src="./assets/banner-images/large-img.jpeg" alt="" height="450" width="1090">
+            </div>
+            <!---Video tab--->
+            <div class="tab-pane fade mt-4" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
+                <iframe width="1090" height="450" src="https://www.youtube.com/embed/MZNmeV8kE-0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!----------------Wizard section end--------------------->
+
+    <!----------------Footer section start------------------->
+     <footer>
+       <div class="container mt-5">
+        <div class="row m-0 p-0">
+            <div class="footer-section">
+             <h1 class="text-dark">Footer</h1>
+            </div>
+            <div class="menu d-flex justify-content-end" style="margin-top: -140px;">
+                <a href="" class="text-decoration-none text-dark">Terms</a> &nbsp;&nbsp;&nbsp; 
+                <a href="" class="text-decoration-none text-dark">Policy</a>
+             </div>
+        </div>
+       </div>
+     </footer>
+    <!----------------Footer section end------------------->
+
+</body>
+</html>
+
